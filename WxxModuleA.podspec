@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = "This is a test componet."
                    
 
-  spec.homepage     = "https://github.com/guhehua@yeah.net/WxxModuleA"
+  spec.homepage     = "https://github.com/huahuaCCC/WxxModuleA"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/guhehua@yeah.net/WxxModuleA.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/huahuaCCC/WxxModuleA.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
