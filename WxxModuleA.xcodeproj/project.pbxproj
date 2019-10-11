@@ -16,6 +16,7 @@
 		CB749E0C235067AD00BC5553 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB749E0B235067AD00BC5553 /* main.m */; };
 		CB749E16235067AD00BC5553 /* WxxModuleATests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB749E15235067AD00BC5553 /* WxxModuleATests.m */; };
 		CB749E21235067AD00BC5553 /* WxxModuleAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB749E20235067AD00BC5553 /* WxxModuleAUITests.m */; };
+		CB749E31235067D400BC5553 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB749E30235067D400BC5553 /* AViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		CB749E1C235067AD00BC5553 /* WxxModuleAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WxxModuleAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB749E20235067AD00BC5553 /* WxxModuleAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WxxModuleAUITests.m; sourceTree = "<group>"; };
 		CB749E22235067AD00BC5553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB749E2F235067D400BC5553 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		CB749E30235067D400BC5553 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		CB749DF8235067AB00BC5553 /* WxxModuleA */ = {
 			isa = PBXGroup;
 			children = (
+				CB749E2E235067BE00BC5553 /* ModuleA */,
 				CB749DF9235067AB00BC5553 /* AppDelegate.h */,
 				CB749DFA235067AB00BC5553 /* AppDelegate.m */,
 				CB749DFC235067AB00BC5553 /* SceneDelegate.h */,
@@ -135,6 +139,15 @@
 				CB749E22235067AD00BC5553 /* Info.plist */,
 			);
 			path = WxxModuleAUITests;
+			sourceTree = "<group>";
+		};
+		CB749E2E235067BE00BC5553 /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				CB749E2F235067D400BC5553 /* AViewController.h */,
+				CB749E30235067D400BC5553 /* AViewController.m */,
+			);
+			path = ModuleA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB749E01235067AB00BC5553 /* ViewController.m in Sources */,
+				CB749E31235067D400BC5553 /* AViewController.m in Sources */,
 				CB749DFB235067AB00BC5553 /* AppDelegate.m in Sources */,
 				CB749E0C235067AD00BC5553 /* main.m in Sources */,
 				CB749DFE235067AB00BC5553 /* SceneDelegate.m in Sources */,
